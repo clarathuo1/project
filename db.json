@@ -1,0 +1,268 @@
+{
+    "recipes": [
+
+      {
+        "title":"1-2-3 Jambalaya",
+        "image": "https://images.unsplash.com/photo-1603185730021-ddc0c8097059?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHN0ZXdzfGVufDB8fDB8fHww",
+        "ingredients": [
+        "1 (13.5 ounce) package Johnsonville Andouille Dinner Sausage, cut into 1/4-inch slices",
+        "8 ounces raw shrimp, peeled and deveined or 8 ounces boneless, skinless chicken breast, cut into 1-inch pieces",
+        "2 teaspoons Cajun Creole seasoning",
+        "1 teaspoon olive oil",
+        "1 (8 ounce) package Jambalaya Rice Mix",
+        "1 (14 ounce) can diced tomatoes, drained and divided",
+        "1 teaspoon Worcestershire sauce",
+        "1 teaspoon hot pepper sauce",
+        "2 tablespoons chopped fresh parsley"],
+
+        "directions": [
+        "In a bowl, combine sausage, shrimp or chicken with Creole seasoning; toss to coat.",
+         "In a skillet, heat oil over medium heat. Add sausage, shrimp or chicken.",
+         "Cooking and stirring until shrimp turn pink or chicken is no longer pink, about 3-5 minutes.",
+        "In a saucepan, prepare rice mix according to package directions.",
+         "In addition, add one-half of the tomatoes into the rice preparation. ",
+         "After 12 minutes of cooking , add remaining tomatoes, Worcestershire sauce, hot pepper sauce and parsley. ",
+         "Continue to cook on low, covered, until liquid is absorbed and rice is tender.",
+        "Add sausage, shrimp or chicken to rice, stir until heated through. Serve."
+    ]
+    
+      },
+      {
+        "title": "1-2-3 Lemon Icebox Pie",
+        "image": "https://images.unsplash.com/photo-1534531173927-aeb928d54385?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGxlbW9uJTIwaWNlYm94JTIwY2FrZXxlbnwwfHwwfHx8MA%3D%3D",
+        "ingredients": [
+            "1 (14 ounce) can sweetened condensed milk",
+            "2 egg yolks",
+            "3 lemons, juiced",
+            "1 (9 inch) prepared graham cracker crust"
+        ],
+        "directions": [
+            "Beat condensed milk and egg yolks in a bowl until smooth. ",
+            "Add lemon juice and stir until the mixture begins to thicken. ",
+            "Pour into prepared pie crust.",
+            "Refrigerate pie until set in the middle, 6 hours to overnight."
+        ]
+        
+      },
+     
+      {
+        "title": "1-Dish Chicken Parmesan",
+        "image": "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHBhcm1lc2FufGVufDB8fDB8fHww",
+       "ingredients": [
+        "Mazola Pure Cooking Spray",
+        "1 cup of all-purpose flour",
+        "2 envelopes Fleischmann's RapidRise Yeast",
+        "2 teaspoons sugar",
+        "A teaspoon of salt",
+        "One cup very warm water (120 degrees F to 130 degrees F)",
+        "3 tablespoons olive oil",
+        "12 ounces fully cooked, frozen, breaded chicken (breast or tenders), chopped",
+        "2 cups spaghetti sauce",
+        "1 cup Italian blend shredded cheese",
+        "1 teaspoon Spice Islands Italian Herb Seasoning"
+    ],
+        "directions": [
+        "Mix batter ingredients together in a pre-sprayed 8x8-inch baking dish. Let rest 5 to 10 minutes.",
+        "Top batter evenly with chicken. Pour marinara sauce over chicken, sprinkle with cheese and herbs.",
+        "Bake by placing in a COLD oven; set temperature to 350 degrees F. Bake for 30 minutes, or until done."
+    ]
+    
+      },
+      { 
+        "title": "1-Dish Pepperoni Cheese Pizza Bake",
+        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8fDA%3D",
+        "ingredients": [
+        "Batter:",
+        "Mazola Pure Cooking Spray",
+        "1 3/4 cups all-purpose flour",
+        "2 envelopes Fleischmann's RapidRise Yeast",
+        "2 teaspoons sugar",
+        "1/2 teaspoon salt",
+        "3/4 cup very warm water (120 degrees F to 130 degrees F)",
+        "2 tablespoons olive oil",
+        "Topping:",
+        "1/2 cup pizza sauce",
+        "2 ounces pepperoni slices",
+        "2 cups shredded mozzarella cheese"
+    ],
+        "directions": [
+        "Mix batter ingredients in a pre-sprayed 9-1/2-inch deep dish pie plate.",  
+        "Spread pizza sauce evenly over batter.",
+        "Top dough with pepperoni slices.",
+        "Firmly push pepperoni into batter. " ,
+        "Sprinkle with cheese.",
+        "Bake by placing in a cold oven; set temperature to 350 degrees F. ",
+        "Bake for 30 minutes or until done."
+    ]
+   
+      },
+      {
+        "title": "#1 Pea Salad Most Requested!",
+        "image": "https://images.unsplash.com/photo-1553455860-2fa544e14141?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVhJTIwc2FsYWR8ZW58MHx8MHx8fDA%3D",
+        "ingredients": [
+        "2 (16 ounce) packages frozen petite peas",
+        "6 ounces smoke-flavored almonds, finely chopped",
+        "1 onion, finely chopped",
+        "1 cup mayonnaise, or more to taste",
+        "ground black pepper to taste"
+    ],
+        "directions": [
+        "Place frozen peas in a colander; rinse under cold water until thawed. Drain and transfer to a large bowl. Add almonds and onions; mix well. Fold mayonnaise and black pepper into pea mixture until evenly coated. Cover and refrigerate until serving."
+    ]
+    
+      },
+      {
+        "title": "#1 Pumpkin Spice Cookies",
+        "image": "https://images.unsplash.com/photo-1603320284194-db4276c54f0a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHVtcGtpbiUyMGNvb2tpZXN8ZW58MHx8MHx8fDA%3D",
+        "ingredients": [
+            "2 1/2 cups all-purpose flour",
+            "1 cup rolled oats",
+            "4 teaspoons baking powder",
+            "1 1/2 teaspoons ground cinnamon",
+            "1/2 teaspoon ground nutmeg",
+            "1 teaspoon pumpkin pie spice",
+            "1/2 teaspoon ground ginger",
+            "1/4 teaspoon salt",
+            "2 tablespoons butter",
+            "1 1/3 cups light brown sugar",
+            "2 eggs",
+            "1 teaspoon vanilla extract",
+            "1 (15 ounce) can pumpkin",
+            "1/2 cup apple butter",
+            "1 cup chopped walnuts"
+        ],
+        "directions": [
+            "Preheat an oven to 375 degrees F (190 degrees C). Grease 2 baking sheets.",
+            "Stir the flour, oats, baking powder, cinnamon, nutmeg, pumpkin pie spice, ginger, and salt in a bowl.",
+            "Beat the butter and brown sugar with an electric mixer in a large bowl until smooth.",
+            "Add 1 egg and allow it to blend into the mixture before adding the other along with the vanilla.", 
+            "Add the pumpkin and apple butter; continue beating.", 
+            "Mix in the flour mixture until just incorporated. ",
+            "Fold in the walnuts, mixing just enough to evenly combine.",
+            "Drop spoonfuls of the dough 2 inches apart onto the prepared baking sheets.",
+            "Bake in the preheated oven until the edges are golden, about 12 minutes. ",
+            "Allow the cookies to cool on the baking sheet for 1 minute before removing to a wire rack to cool completely."
+        ]
+        
+      },
+      {
+     "title": "1-Step Chipotle Hummus",
+     "image": "https://images.unsplash.com/photo-1622040806062-27ae4deb4a40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtdXN8ZW58MHx8MHx8fDA%3D",
+     "ingredients": [
+        "1 (16 ounce) container store-bought hummus",
+        "2 tablespoons TABASCO brand Chipotle Pepper Sauce",
+        "Pita chips or raw vegetables"
+     ],
+        "directions": [
+        "Mix together hummus and TABASCO Chipotle Sauce until well combined.",
+        "Serve immediately with pita chips or raw vegetables or refrigerate until ready to use."
+    ]
+    
+      },
+      {
+        "title": "10-Minute Chocolate Mug Cake",
+        "image": "https://images.unsplash.com/photo-1536681052895-9f6a24b82141?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNob2NvbGF0ZSUyMG11ZyUyMGNha2V8ZW58MHx8MHx8fDA%3D",
+        "ingredients": [
+            "5 tablespoons white sugar",
+            "1/4 cup all-purpose flour",
+            "3 tablespoons milk",
+            "3 tablespoons olive oil",
+            "2 tablespoons unsweetened cocoa powder",
+            "1 egg",
+            "1 dash pure vanilla extract",
+            "1 pinch salt"
+        ],
+        "directions": [
+            "Mix sugar, flour, milk, olive oil, cocoa powder, egg, vanilla extract, and salt together in a large microwave-safe mug.",
+            "Heat in microwave until center of cake is done, about 2 minutes."
+        ]
+        
+      },
+      {
+        "title": "10-Minute Tomato Basil Salad",
+        "image": "https://images.unsplash.com/photo-1529312266912-b33cfce2eefd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dG9tYXRvJTIwYmFzaWwlMjBzYWxhZHxlbnwwfHwwfHx8MA%3D%3D",
+        "ingredients": [
+        "1 large tomato, cut into wedges",
+        "1 tablespoon chopped fresh basil",
+        "1 tablespoon extra-virgin olive oil",
+        "1 1/2 teaspoons red wine vinegar, or to taste",
+        "1 pinch salt and ground black pepper to taste (optional)"
+    ],
+        "directions": [
+        "Combine tomato, basil, olive oil, vinegar, salt, and black pepper in a large bowl;", 
+        "Toss until tomato wedges are  evenly coated."
+    ]
+    
+      },
+      {
+        "title": "11-Can Chili",
+        "image": "https://images.unsplash.com/photo-1512010151537-2cf5c638ad51?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNoaWxsaXxlbnwwfHwwfHx8MA%3D%3D",
+        "ingredients": [
+        "2 pounds lean ground beef",
+        "2 small onions, diced",
+        "2 cloves garlic, minced",
+        "3 (14.5 ounce) cans diced tomatoes",
+        "2 (15 ounce) cans red kidney beans, rinsed and drained",
+        "2 (15 ounce) cans pinto beans, rinsed and drained",
+        "2 (15 ounce) cans black beans, rinsed and drained",
+        "1 (28 ounce) can crushed tomatoes",
+        "1 (6 ounce) can tomato paste",
+        "2 (1.25 ounce) packages chili seasoning mix",
+        "1 pinch salt and ground black pepper to taste"
+    ],
+        "directions": [
+        "Heat a large pot over medium-high heat.", 
+        "Cook and stir beef, onion, and garlic together in the hot skillet until beef is completely browned, 5 to 7 minutes; drain and discard grease.",
+        "Stir diced tomatoes, kidney beans, pinto beans, black beans, crushed tomatoes, tomato paste, chili seasoning mix, salt, and black pepper with the beef mixture; bring to a boil, reduce heat to medium-low, place a cover on the pot, and simmer the chili until the beans are tender, about 20 minutes."
+    ]
+    
+      },
+      {
+        "title": "12-Second Coleslaw",
+        "image": "https://images.unsplash.com/photo-1600607700607-bf154beb191f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y29sZXNsYXd8ZW58MHx8MHx8fDA%3D",
+        "ingredients": [
+        "1 (10 ounce) package angel hair-style shredded cabbage",
+        "2 tablespoons Thousand Island dressing",
+        "2 tablespoons seasoned rice vinegar",
+        "1 teaspoon hot sauce",
+        "1 pinch salt"
+    ],
+        "directions": [
+        "Stir cabbage, Thousand Island dressing, rice vinegar, hot sauce, and salt together in a bowl with a fork until evenly mixed."
+    ]
+    
+      },
+      {
+        "title": "123 Green Tea Ice Cream",
+        "image": "https://images.unsplash.com/photo-1534706936160-d5ee67737249?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW4lMjBpY2UlMjBjcmVhbXxlbnwwfHwwfHx8MA%3D%3D",
+        "ingredients": [
+            "1 cup vanilla ice cream",
+            "1 teaspoon green tea powder (matcha)"
+        ],
+        "directions": [
+            "Lightly pound the ice cream on a wooden cutting board; transfer to bowl and add matcha; mix well. Refreeze or eat immediately."
+        ]
+       
+      },
+      {
+        "title": "12th Man-Hattan",
+        "image": "https://images.unsplash.com/photo-1621289834846-7cbd3a9a5ad9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hbmhhdHRhbiUyMGNvY2t0YWlsfGVufDB8fDB8fHww",
+        "ingredients": [
+        "ice",
+        "2 ounces wheat whiskey (such as Dry Fly)",
+        "1/2 ounce sweet vermouth",
+        "3 dashes bitters (such as Angostura)",
+        "1 strip mandarin orange zest",
+        "2 maraschino cherries"
+    ],
+        "directions": [
+        "Fill a cocktail shaker with ice. ",
+        "Pour whiskey and vermouth over ice and add bitters; ",
+        "Gently stir with a long spoon. Strain whiskey mixture into a cocktail glass. ",
+        "Rub mandarin zest along the rim of the cocktail glass and drop into the drink along with the cherries."
+    ]
+    
+      }
+    ]
+   }
+   
