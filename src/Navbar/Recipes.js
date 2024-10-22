@@ -8,8 +8,22 @@ function Recipe() {
 
   useEffect(() => {
     fetch("https://server-v95o.onrender.com/recipes")
-      .then((response) => response.json())
-      .then((data) => setRecipes(data));
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then((data) => {
+        console.log(data); // Log the response data
+        if (Array.isArray(data)) {
+          setRecipes(data);
+        } else {
+          console.error('Expected an array but got:', data);
+          setRecipes([]); // Set to an empty array if data is not an array
+        }
+      })
+      .catch((error) => console.error('Error fetching recipes:', error));
   }, []);
 
   const filteredRecipes = recipes.filter((recipe) => {

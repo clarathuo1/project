@@ -7,6 +7,8 @@ import Home from "./Navbar/Home"
 import About from "./Navbar/About"
 import Recipes from "./Navbar/Recipes"
 import Testimonials from "./Navbar/Testimonials"
+import Register from './Components/Register';
+import Login from './Components/Login';
 
 const router = createBrowserRouter([
   {
@@ -24,7 +26,17 @@ const router = createBrowserRouter([
   {
     path: "/testimonials",
     element: <Testimonials/>
+  },
+  {
+    path: "/register",
+    element: <Register/>
+  },
+  {
+    path: "/login",
+    element: <Login/>
   }
+
+
 ])
 
 
