@@ -42,7 +42,7 @@ const Register = () => {
 		}
 
 		try {
-			const response = await fetch("http://127.0.0.1:5555/register", {
+			const response = await fetch("https://server-v95o.onrender.com/register", {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",

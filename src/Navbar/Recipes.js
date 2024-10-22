@@ -7,7 +7,7 @@ function Recipe() {
   const [query, setQuery] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3000/recipes")
+    fetch("https://server-v95o.onrender.com/recipes")
       .then((response) => response.json())
       .then((data) => setRecipes(data));
   }, []);
