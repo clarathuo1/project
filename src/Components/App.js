@@ -4,6 +4,8 @@ import HeroSection from './HeroSection';
 import Footer from "./Footer"
 import Main from "./Main"
 import Form from './Form';
+import Contact from './Contact';
+import Testimonials from '../Navbar/Testimonials';
 
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
      <Form />
     <HeroSection />
     <Main />
+    <Contact />
+    <Testimonials />
     <Footer />
     </>
   );

@@ -1,66 +1,73 @@
-import React from 'react';
-import NavBar from './NavBar';
-import Form from '../Components/Form';
-import "../App.css";
-import Footer from "../Components/Footer";
-import ProfilePic1 from "../Components/Assets/john-doe-image.png"
+import React from "react";
 import { AiFillStar } from "react-icons/ai";
+import "./Testimonial.css";
+import Navbar from "./NavBar";
+import Footer from "../Components/Footer";
 
-function Testimonials() {
+
+const testimonialsData = [
+  {
+    image: "https://images.unsplash.com/photo-1535295972055-1c762f4483e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D",
+    text: "FOODIE has changed the way I cook! The recipes are easy to follow, and the variety keeps my family excited at every meal.",
+    name: "Jane Smith",
+  },
+  {
+    image: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGVvcGxlfGVufDB8fDB8fHww",
+    text: "I love this app! It has brought new life to my cooking with delicious and unique recipes.",
+    name: "Emily Johnson",
+  },
+  {
+    image: "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGVvcGxlfGVufDB8fDB8fHww",
+    text: "Thanks to FOODIE, I've become more adventurous in the kitchen. The community feedback is invaluable!",
+    name: "Alex Brown",
+  },
+];
+
+const Testimonial = () => {
   return (
     <>
-      <NavBar />
-      <div className='test-section-wrapper'>
-        <div className='test-section-top'>
-          <p className='primary-subheading'>What Our Users Say</p>
-          <h1 className='primary-heading'>Real Stories, Real Feedback</h1>
-          <p className='primary-text'>Discover how our recipe app has transformed the cooking experiences of people from all around the world.</p>
-        </div>
-        <div className='testimonials-container'>
-          <div className='test-section-bottom'>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG-7uwU6FCIFP5AYKvC6H3BmAf8FXRO5pJZQ&s" alt='Profile 1' className='testimonial-img' /> 
-            <p>"This app has revolutionized my cooking! The recipes are diverse and easy to follow."</p>
-            <div className='test-stars-container'>
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar /> 
-            </div>
-            <h2>Megan Waweru</h2>
-          </div>
-
-          <div className='test-section-bottom'>
-             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDR0D8KU4AAnRWY9ps7CGDVmANho9me-Yrqw&s" alt='Profile 2' className='testimonial-img' /> 
-            <p>"I love the variety of recipes and the ease of finding new meal ideas. Highly recommended!"</p>
-            <div className='test-stars-container'>
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar /> 
-            </div>
-            <h2>Charles Mwangi</h2>
-          </div>
-
-          <div className='test-section-bottom'>
-             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ4kz4wb6e26HB6O_yZLV8NiAgcx9stdisXQ&s" alt='Profile 3' className='testimonial-img' /> 
-            <p>"A fantastic app that makes cooking enjoyable and stress-free. The recipes are delicious!"</p>
-            <div className='test-stars-container'>
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar /> 
-            </div>
-            <h2>Victoria Njeri</h2>
-          </div>
-        </div>
-        <Form />
-        <Footer />
+    <Navbar />
+    <div className="testimonial-section-wrapper">
+      <div className="testimonial-section-top">
+        <p className="primary-subheading">Testimonials</p>
+        <h1 className="primary-heading">What Our Users Are Saying</h1>
+        <p className="primary-text">
+          Discover how our recipe app has transformed cooking experiences for
+          users worldwide.
+        </p>
       </div>
+      <div className="testimonial-cards-container">
+        {testimonialsData.map((testimonial, index) => (
+          <div className="testimonial-card" key={index}>
+            <img src={testimonial.image} alt="User profile" className="testimonial-img" />
+            <p className="testimonial-text">"{testimonial.text}"</p>
+            <div className="testimonials-stars-container">
+              {[...Array(5)].map((_, starIndex) => (
+                <AiFillStar key={starIndex} className="star-icon" />
+              ))}
+            </div>
+            <h2 className="testimonial-user">{testimonial.name}</h2>
+          </div>
+        ))}
+      </div>
+      <div className="best-comment-section">
+        <h2>Best User Comment</h2>
+        <div className="best-comment-slider">
+          <div className="best-comment">
+            <p>"The best recipe app out there! A must-have for every home cook!"</p>
+            <span>- Sarah Williams</span>
+          </div>
+          {/* Add more comments if needed */}
+          <div className="best-comment">
+            <p>"FOODIE has inspired me to cook every day. Thank you!"</p>
+            <span>- Michael Lee</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <Footer />
     </>
   );
-}
+};
 
-export default Testimonials;
+export default Testimonial;

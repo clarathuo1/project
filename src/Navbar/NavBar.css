@@ -1,34 +1,30 @@
-nav {
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
-    min-height: 90px;
+.navbar-links {
+  display: flex;
+  align-items: center; /* Center aligns the links vertically */
+  gap: 2rem; /* Space between the links */
 }
+
 .nav-link {
-    margin-right: 3rem;
-    text-decoration: none;
-    color: black;
-    font-size: 1.1rem;
-    font-weight: 600;
+  color: goldenrod; /* Link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth color transition */
 }
+
+.nav-link:hover {
+  color: #f39c12; /* Change color on hover */
+}
+
 .primary-button {
-    padding: 0.9rem 1.75rem;
-    background-color: antiquewhite;
-    outline: none;
-    border: none;
-    border-radius: 5rem;
-    font-size: 1.1rem;
-    cursor: pointer;
-    font-weight: 600;
-    transition: 0.2s;
+  background-color: #f39c12; /* Button color */
+  color: goldenrod; /* Button text color */
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none; /* Remove border */
+  cursor: pointer; /* Pointer cursor */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s; /* Smooth background transition */
 }
 
 .primary-button:hover {
-    background-color: rgb(234, 234, 234);
+  background-color: whitesmoke; /* Change button color on hover */
 }
-
-
-
-  
-  
-  

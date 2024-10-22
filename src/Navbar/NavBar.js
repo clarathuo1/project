@@ -1,47 +1,23 @@
-import React from 'react'
-import Logo from "../Components/Assets/Logo.svg"
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Logo from '../Components/Assets/Logo.svg';
+import './NavBar.css';
 
-import "./NavBar.css"
-import { NavLink } from 'react-router-dom'
-
-
-function NavBar() {
+const Navbar = () => {
   return (
-    <nav>
-      <div className='nav-logo-container'>
-        <img src={Logo} alt='' />
+    <nav className="flex items-center justify-between p-6 bg-white shadow-md">
+      <div className="flex items-center">
+        <img src={Logo} alt="Logo" className="w-16 mr-4" />
       </div>
-      <div className='nav-links-container'>
-      <NavLink
-        to="/"
-        /* add styling to Navlink */
-        className="nav-link"
-      >
-        Home
-      </NavLink>
-      <NavLink
-        to="/about"
-        className="nav-link"
-      >
-        About
-      </NavLink>
-      <NavLink
-        to="/recipes"
-        className="nav-link"
-      >
-        Recipes
-      </NavLink>
-      <NavLink
-        to="/testimonials"
-        className="nav-link"
-      >
-        Testimonials
-      </NavLink>
+      <div className="navbar-links">
+        <Link to="/" className="nav-link">Home</Link>
+        <Link to="/about" className="nav-link">About</Link>
+        <Link to="/recipes" className="nav-link">Recipes</Link>
+        <Link to="/testimonials" className="nav-link">Testimonials</Link>
+        <Link to="/recipes" className="primary-button">Get Started</Link>
       </div>
-        
-        
     </nav>
-  )
-}
+  );
+};
 
-export default NavBar
+export default Navbar;

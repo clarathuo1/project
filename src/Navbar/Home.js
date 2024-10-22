@@ -16,11 +16,10 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Your Favourite Food Cooked From Home Served Hot & Fresh
+            Your Favourite Food Cooked From Home Served Hot & Fresh Only At The Nosh Navigator
           </h1>
           <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping
-            & marinating, so you can cook a fresh food.
+            Welcome to the world where your culinary dreams are fulfilled, where you will find healthy meals but most Importantly novishly tasty.
           </p>
           <button className="secondary-button">
             Let's Burn It Up {" "}
