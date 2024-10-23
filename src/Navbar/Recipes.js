@@ -15,12 +15,12 @@ function Recipe() {
         return response.json();
       })
       .then((data) => {
-        console.log(data); // Log the response data
+        console.log(data); 
         if (Array.isArray(data)) {
           setRecipes(data);
         } else {
           console.error('Expected an array but got:', data);
-          setRecipes([]); // Set to an empty array if data is not an array
+          setRecipes([]); 
         }
       })
       .catch((error) => console.error('Error fetching recipes:', error));
@@ -28,9 +28,9 @@ function Recipe() {
 
   const filteredRecipes = recipes.filter((recipe) => {
     if (query === "") {
-      return true; // Return all recipes when query is empty
+      return true; 
     } else if (recipe.title.toLowerCase().includes(query.toLowerCase())) {
-      return true; // Return recipes matching the query
+      return true; 
     }
     return false;
   });
